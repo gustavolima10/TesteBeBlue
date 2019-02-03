@@ -1,0 +1,164 @@
+{
+  "id": "5503765d-b8e2-432c-bbe5-2505d2d05432",
+  "version": "2.0",
+  "name": "Tete_BeBlue",
+  "url": "https://www.magazineluiza.com.br",
+  "tests": [{
+    "id": "5d05f097-f06b-4410-8030-fc3a348abbc6",
+    "name": "Test_BeBlue",
+    "commands": [{
+      "id": "69747675-d097-46a0-87a6-851812e3fc61",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2fa3aec3-e550-4574-8e41-812e1a5198c3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1024x768",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "feb0d053-a34e-469e-bfdc-bb226110225e",
+      "comment": "",
+      "command": "click",
+      "target": "id=inpHeaderSearch",
+      "targets": [
+        ["id=inpHeaderSearch", "id"],
+        ["name=q", "name"],
+        ["css=#inpHeaderSearch", "css"],
+        ["xpath=//input[@id='inpHeaderSearch']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "451b1d38-8e86-4c48-aa9f-b13d5ca53eea",
+      "comment": "",
+      "command": "type",
+      "target": "id=inpHeaderSearch",
+      "targets": [
+        ["id=inpHeaderSearch", "id"],
+        ["name=q", "name"],
+        ["css=#inpHeaderSearch", "css"],
+        ["xpath=//input[@id='inpHeaderSearch']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "iphone"
+    }, {
+      "id": "3c3cacac-1ae4-45ef-8b01-b9c739ecaa71",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ac-hover",
+      "targets": [
+        ["css=.ac-hover", "css:finder"],
+        ["css=li.ac-suggest-term.ac-hover", "css"],
+        ["xpath=//div[2]/div[2]/ul/li[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3730a112-1dc3-4f02-85dc-89ed722249af",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,265.6000061035156)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b6dc73b9-97f2-44aa-a62b-967ead69effa",
+      "comment": "",
+      "command": "click",
+      "target": "css=#product_217029400 .nm-product-img",
+      "targets": [
+        ["css=#product_217029400 .nm-product-img", "css:finder"],
+        ["css=img.nm-product-img", "css"],
+        ["xpath=//img[@alt='iPhone 7 Plus Apple 32GB Preto Matte 4G Tela 5.5” - Câm. 12MP + Selfie 7MP iOS 11 Proc. Chip A10']", "xpath:img"],
+        ["xpath=//a[@id='product_217029400']/div/div/img", "xpath:idRelative"],
+        ["xpath=//a/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3893a5a-03a0-4eb1-a50f-bd75e648ee9f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.js-services-button",
+      "targets": [
+        ["css=.js-services-button", "css:finder"],
+        ["css=button.js-services-button.services__link", "css"],
+        ["xpath=//div[4]/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e1e809e-10b2-42bb-8c2b-021eb192783c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.js-services-button",
+      "targets": [
+        ["css=.js-services-button", "css:finder"],
+        ["css=button.js-services-button.services__link", "css"],
+        ["xpath=//div[4]/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a97a0a97-c55f-44f0-b24d-8e9be21a22aa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-main-add-cart-button",
+      "targets": [
+        ["css=.js-main-add-cart-button", "css:finder"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "591abf6c-c3b6-4d8f-b17a-f712fc0d2f90",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//a[contains(text(),'continuar')]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d0d794d7-d6e4-43df-be99-33bca3a10693",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "xpath=//a[contains(text(),'continuar')]",
+      "targets": [
+        ["linkText=continuar", "linkText"],
+        ["css=.price-warranty__btn--continue", "css:finder"],
+        ["css=a.price-warranty__btn--continue.btn-buy-warranty", "css"],
+        ["xpath=//a[contains(text(),'continuar')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '')])[8]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "50b23067-40f4-4a19-8a4e-b3055322a2a0",
+      "comment": "",
+      "command": "pause",
+      "target": "4000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7b498208-658c-4277-ba22-760a86d5bc26",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.BasketItem-product-info-title",
+      "targets": [
+        ["css=.BasketItem-product-info-title", "css:finder"],
+        ["css=dt.BasketItem-product-info-title", "css"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div/div[2]/div[2]/div/div/dl/dt", "xpath:idRelative"],
+        ["xpath=//dt", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "af61fe67-5d5a-40ed-91d6-c1ac62ddad65",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["5d05f097-f06b-4410-8030-fc3a348abbc6"]
+  }],
+  "urls": ["https://www.magazineluiza.com.br/"],
+  "plugins": []
+}
